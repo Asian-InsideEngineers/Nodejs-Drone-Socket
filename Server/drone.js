@@ -6,6 +6,7 @@ const app = express();
 const server = require('http').createServer(app);
 const wss = new WebSocket.Server({ server });
 
+
 // Setup GPIO pin, assuming GPIO 17 is used for example
 // const led = new Gpio(17, 'out'); // Change the pin number as needed
 
